@@ -212,7 +212,7 @@ def votecalculate_dashboard(df):
     
     
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SUPERHERO])
-#server=app.server
+server=app.server
 
 
 app.layout =html.Div([
