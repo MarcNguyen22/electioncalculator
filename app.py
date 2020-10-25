@@ -48,7 +48,7 @@ def votecalculate_dashboard(df):
         k=0
         temp = []
         while k<len(test2[1]):
-            temp = temp+[int(test2[j][k].split()[-1])]
+            temp = temp+[int(str(test2[j][k]).split()[-1])]
 
             k=k+1
         test = test + [temp]
