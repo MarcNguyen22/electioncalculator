@@ -20,6 +20,8 @@ def votecalculate_dashboard(df):
     #Load in data, remove timestamp column
     if "Timestamp" in df.columns:
         df=df.drop(["Timestamp"],axis=1)
+    #drop any NA votes if they exist
+    df=df.dropna()
     vals=df.values
     
     
