@@ -18,7 +18,8 @@ import io
 
 def votecalculate_dashboard(df):
     #Load in data, remove timestamp column
-    df=df.drop(["Timestamp"],axis=1)
+    if "Timestamp" in df.columns:
+        df=df.drop(["Timestamp"],axis=1)
     vals=df.values
     
     
