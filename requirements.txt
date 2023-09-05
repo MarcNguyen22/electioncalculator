@@ -1,8 +1,8 @@
 dash==1.16.3
 dash-core-components==1.12.1
 dash-html-components==1.1.1
-numpy>=1.19.1
-pandas==1.1.1
+numpy==1.23.2
+pandas==2.1.0
 plotly==4.9.0
 dash-bootstrap-components==0.10.7
 gunicorn>=19.7.1
@@ -18,11 +18,11 @@ html5lib==1.0.1
 idna==2.8
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==3.1.2
 jupyter-core==4.5.0
 MarkupSafe==1.1.1
 nbformat==4.4.0
-pytz==2019.1
+pytz==2020.1
 six==1.12.0
 traitlets==4.3.2
 Werkzeug==0.15.4
